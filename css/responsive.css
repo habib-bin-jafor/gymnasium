@@ -1,0 +1,209 @@
+
+    /* small device css start */
+
+    @media (min-width: 576px) and (max-width: 767.98px){
+        .navbar .navbar-brand{
+            position: static;
+            padding: 0px 16px; 
+            transform: skewX(0);
+        }
+    
+        .navbar .navbar-brand img {
+            transform: skewX(0);
+        }
+
+        .navbar-light .navbar-toggler {
+            color: #fff;
+            border-color: #fff;
+        }
+
+        .navbar-nav {
+            background: rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #353535;
+        }
+
+        #banner .bg1 .slider-text h2::before {
+            display: none;
+        }
+    
+        #banner .bg1 .slider-text h2::after {
+            display: none;
+        }
+    
+        #banner .bg1 .slider-text h1::before {
+            display: none;
+        }
+    
+        #banner .bg1 .slider-text h1::after {
+            display: none;
+        }
+    
+        #banner .bg1 .slider-text::after {
+            display: none;
+        }
+    
+        #banner .bg1 .slider-text::before {
+            display: none;
+        }   
+        
+        #routine .routine-head .nav-tabs .nav-item .nav-link {
+            width: 253px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            
+        }
+
+        #routine .tab-content ul li {
+            
+            width: 253px;
+            padding: 50px 64px;
+        }
+
+        #routine .tab-content ul li:nth-child(5) {
+            margin-right: 5px !important;
+        }
+
+        .footer-item .flickr li a img{
+            width: 119px;
+            }
+    
+       
+    }
+
+    /* small device css ends */
+
+
+/* xtra small device css start */
+
+@media (max-width: 575.98px){
+    .navbar .navbar-brand{
+        position: static;
+        padding: 0 16px; 
+        transform: skewX(0);
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0);
+    }
+
+    .navbar .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar .navbar-toggler span{
+        color: #fff;
+
+    }
+
+    .navbar .navbar-nav{
+        background: rgba(53, 53, 53, 0.9);
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+
+    .slider-item {
+        padding-top: 180px;
+        padding-bottom: 85px;
+        
+    }
+
+    #banner .bg1 .slider-text h2::before {
+        display: none;
+    }
+
+    #banner .bg1 .slider-text h2::after {
+        display: none;
+    }
+
+    #banner .bg1 .slider-text h1::before {
+        display: none;
+    }
+
+    #banner .bg1 .slider-text h1::after {
+        display: none;
+    }
+
+    #banner .bg1 .slider-text::after {
+        display: none;
+    }
+
+    #banner .bg1 .slider-text::before {
+        display: none;
+    }
+
+    
+    #about {
+         padding: 40px 0 !important; 
+        
+    }
+
+    #about .about-vedio {
+        margin-top: 15px;
+    }
+
+    #gallery .gallery-bg .gallery-item {
+        margin-bottom: 40px;
+    }
+
+    #team {
+        padding-top: 40px;
+    }
+
+    #membership {
+        padding-top: 40px;
+
+    }
+
+    .pricing {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #routine .routine-head .nav-tabs .nav-item .nav-link {
+        width: 267px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    #routine .tab-content ul li {
+        width: 267px;
+        padding: 70px 64px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        
+        }
+
+    #routine .tab-content ul li:nth-child(5){
+        margin-right: 5px !important;
+    }
+
+    #footer .footer-overlay .footer-item .flickr li {
+        width: 81px;
+    }
+
+
+    /* xtra small device css ends */
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+}
