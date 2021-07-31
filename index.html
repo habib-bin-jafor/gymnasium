@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body data-bs-spy="scroll"  data-bs-target=".navbar" data-bs-offset="0">
 
     <!--  ===== navbar menu start here  ===== -->
 
@@ -31,25 +31,26 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#banner">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">about us</a>
+                <a class="nav-link" href="#about">about us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">plans</a>
+                <a class="nav-link" href="#gallery">gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">team</a>
+                <a class="nav-link" href="#team">team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#feedback">testimonial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">gallery</a>
+                <a class="nav-link" href="#routine">plans</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">testimonial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="#footer">contact</a>
               </li>
               </ul>
           </div>
@@ -1136,6 +1137,22 @@
      </div>
     </footer>
     <!--  ===== footer section ends here  ===== -->
+
+
+    <!--  =====  color option start here  ===== -->
+    <div class="color-picker">
+      <div class="color-icon">
+        <i class="fas fa fa-cog fa-spin"></i>
+      </div>
+      <ul>
+        <li class="default"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="orange"></li>
+        <li class="purple"></li>
+      </ul>
+    </div>
+    <!--  =====  color option ends here  ===== -->
 
 
 

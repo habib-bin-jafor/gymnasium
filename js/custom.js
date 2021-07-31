@@ -6,7 +6,6 @@ $(function(){
         dots: true,
         slidesToScroll: 1, 
         autoplay: true, 
-        autoplaySpeed: 2500,
         
     });
 
@@ -148,6 +147,30 @@ $('.brand-slider').slick({
 });
 
 
+// color picker js;
+$('.color-picker .color-icon').on('click',function(){
+  $('.color-picker').toggleClass('color-picker-pos')
+});
     
+
+$('.color-picker ul .green').on('click',function(){
+  $('body').addClass('green').removeClass('blue').removeClass('orange').removeClass('purple')
+});
+
+$('.color-picker ul .blue').on('click',function(){
+  $('body').addClass('blue').removeClass('green').removeClass('orange').removeClass('purple')
+});
+
+$('.color-picker ul .orange').on('click',function(){
+  $('body').addClass('orange').removeClass('blue').removeClass('green').removeClass('purple')
+});
+
+$('.color-picker ul .purple').on('click',function(){
+  $('body').addClass('purple').removeClass('blue').removeClass('orange').removeClass('green')
+});
+
+$('.color-picker ul .default').on('click',function(){
+  $('body').removeClass('purple').removeClass('blue').removeClass('orange').removeClass('green')
+});
 
 });

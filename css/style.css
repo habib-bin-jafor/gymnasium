@@ -80,7 +80,7 @@ img{
 
    .navbar{
        background: rgba(53, 53, 53, 0.25) !important;
-       position: absolute;
+       position: fixed;
        top: 30px;
        left: 0;
        z-index: 99999;
@@ -1217,12 +1217,298 @@ img{
    footer css ends here
    ============== */
 
+.color-picker{
+    background: #d1d1d1;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    right: -200px;
+    z-index: 99999;
+    transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    
+}
+
+.color-picker-pos{
+    right: 0;
+}
+
+.color-picker .color-icon {
+    width: 30px;
+    height: 30px;
+    background: #e23e38;
+    position: absolute;
+    top: 10px;
+    left: -30px;
+}
+
+.color-picker .color-icon i{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.color-picker ul{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.color-picker ul li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.color-picker ul li.default{
+    background: var(--cl1);
+}
+
+.color-picker ul li.green{
+    background: #12a312be;
+}
+
+.color-picker ul li.orange{
+    background: #a36f0eb6;
+}
+
+.color-picker ul li.blue{
+    background: #0d0d8ab7;
+}
+
+.color-picker ul li.purple{
+    background: #850b85a2;
+}
 
 
+/* green color css start */
+
+.green #banner .slider-item .slider-text h1{
+    color: #12a312be;
+}
+
+.green .navbar-light .navbar-nav .nav-link::after,
+.green #banner .bg1 .slider-text::before ,
+.green #banner .bg1 .slider-text::after,
+.green #banner .bg1 .slider-text h2::before,
+.green #banner .bg1 .slider-text h2::after,
+.green #banner .bg1 .slider-text h1::before,
+.green #banner .bg1 .slider-text h1::after,
+.green #banner .slick-dots li.slick-active,
+.green #about .about-vedio .about-overlay i,
+.green #banner .slider-item .slider-text a:hover,
+.green #feedback .slick-dots li.slick-active,
+.green #membership .pricing:hover .price-head h3,
+.green #membership .pricing:hover .price-footer a,
+.green #routine .routine-head .nav-tabs .nav-item .nav-link.active,
+.green #routine .tab-content ul li.active,
+.green #footer .footer-overlay .footer-item .footer-social i:hover
+ {
+	background: #12a312be;
+}
 
 
+.green #banner .slick-dots li.slick-active ,
+.green #banner .slider-item .slider-text a:hover,
+.green #feedback .slick-dots li.slick-active,
+.green #banner .slider-item .slider-text a:hover,
+.green #footer .footer-overlay .footer-item .footer-social i:hover
+{
+	border-color: #12a312be;
+	
+}
 
 
+.green #footer .footer-overlay .footer-copy p a,
+.green #feedback .feedback-item .feedback-title ul li,
+.green #footer .footer-overlay .footer-item .contact i,
+.green #brand .nextBtn:hover
+{
+    color: #12a312be;
+}
+
+.green #gallery .gallery-bg .gallery-item .item-overlay,
+.green .team-slider .card .card-img .item-overlay
+{
+    background: rgba(18, 163, 18, 0.8);
+}
 
 
- 
+/* green color css ends */
+
+
+/* blue color css start */
+
+.blue #banner .slider-item .slider-text h1{
+    color: #0d0d8ab7;
+}
+
+.blue .navbar-light .navbar-nav .nav-link::after,
+.blue #banner .bg1 .slider-text::before ,
+.blue #banner .bg1 .slider-text::after,
+.blue #banner .bg1 .slider-text h2::before,
+.blue #banner .bg1 .slider-text h2::after,
+.blue #banner .bg1 .slider-text h1::before,
+.blue #banner .bg1 .slider-text h1::after,
+.blue #banner .slick-dots li.slick-active,
+.blue #about .about-vedio .about-overlay i,
+.blue #banner .slider-item .slider-text a:hover,
+.blue #feedback .slick-dots li.slick-active,
+.blue #membership .pricing:hover .price-head h3,
+.blue #membership .pricing:hover .price-footer a,
+.blue #routine .routine-head .nav-tabs .nav-item .nav-link.active,
+.blue #routine .tab-content ul li.active,
+.blue #footer .footer-overlay .footer-item .footer-social i:hover
+ {
+	background: #0d0d8ab7;
+}
+
+
+.blue #banner .slick-dots li.slick-active ,
+.blue #banner .slider-item .slider-text a:hover,
+.blue #feedback .slick-dots li.slick-active,
+.blue #banner .slider-item .slider-text a:hover,
+.blue #footer .footer-overlay .footer-item .footer-social i:hover
+
+{
+	border-color: #0d0d8ab7;
+	
+}
+
+
+.blue #footer .footer-overlay .footer-copy p a,
+.blue #feedback .feedback-item .feedback-title ul li,
+.blue #footer .footer-overlay .footer-item .contact i,
+.blue #brand .nextBtn:hover
+{
+    color: #0d0d8ab7;
+}
+
+.blue #gallery .gallery-bg .gallery-item .item-overlay,
+.blue .team-slider .card .card-img .item-overlay
+{
+    background: rgba(13, 13, 138, 0.8);
+}
+
+/* blue color css ends */
+
+
+/* orange color css start */
+
+.orange #banner .slider-item .slider-text h1{
+    color: #a36f0eb6;
+}
+
+.orange .navbar-light .navbar-nav .nav-link::after,
+.orange #banner .bg1 .slider-text::before ,
+.orange #banner .bg1 .slider-text::after,
+.orange #banner .bg1 .slider-text h2::before,
+.orange #banner .bg1 .slider-text h2::after,
+.orange #banner .bg1 .slider-text h1::before,
+.orange #banner .bg1 .slider-text h1::after,
+.orange #banner .slick-dots li.slick-active,
+.orange #about .about-vedio .about-overlay i,
+.orange #banner .slider-item .slider-text a:hover,
+.orange #feedback .slick-dots li.slick-active,
+.orange #membership .pricing:hover .price-head h3,
+.orange #membership .pricing:hover .price-footer a,
+.orange #routine .routine-head .nav-tabs .nav-item .nav-link.active,
+.orange #routine .tab-content ul li.active,
+.orange #footer .footer-overlay .footer-item .footer-social i:hover
+ {
+	background: #a36f0eb6;
+}
+
+
+.orange #banner .slick-dots li.slick-active
+.orange #banner .slider-item .slider-text a:hover,
+.orange #feedback .slick-dots li.slick-active,
+.orange #banner .slider-item .slider-text a:hover,
+.orange #footer .footer-overlay .footer-item .footer-social i:hover
+{
+	border-color: #a36f0eb6;
+	
+}
+
+
+.orange #footer .footer-overlay .footer-copy p a,
+.orange #feedback .feedback-item .feedback-title ul li,
+.orange #footer .footer-overlay .footer-item .contact i,
+.orange #brand .nextBtn:hover
+{
+    color: #a36f0eb6;
+}
+
+.purple #gallery .gallery-bg .gallery-item .item-overlay,
+.orange .team-slider .card .card-img .item-overlay
+{
+    background: rgba(163, 111, 14, 0.8);
+}
+
+/* orange color css ends */
+
+
+ /* purple color css start  */
+
+.purple #banner .slider-item .slider-text h1{
+    color: #850b85a2;
+}
+
+.purple .navbar-light .navbar-nav .nav-link::after,
+.purple #banner .bg1 .slider-text::before ,
+.purple #banner .bg1 .slider-text::after,
+.purple #banner .bg1 .slider-text h2::before,
+.purple #banner .bg1 .slider-text h2::after,
+.purple #banner .bg1 .slider-text h1::before,
+.purple #banner .bg1 .slider-text h1::after,
+.purple #banner .slick-dots li.slick-active,
+.purple #about .about-vedio .about-overlay i,
+.purple #banner .slider-item .slider-text a:hover,
+.purple #feedback .slick-dots li.slick-active,
+.purple #membership .pricing:hover .price-head h3,
+.purple #membership .pricing:hover .price-footer a,
+.purple #routine .routine-head .nav-tabs .nav-item .nav-link.active,
+.purple #routine .tab-content ul li.active,
+.purple  #footer .footer-overlay .footer-item .footer-social i:hover
+ {
+	background: #850b85a2;
+}
+
+
+.purple #banner .slick-dots li.slick-active,
+.purple #banner .slider-item .slider-text a:hover,
+.purple #feedback .slick-dots li.slick-active,
+.purple #banner .slider-item .slider-text a:hover,
+.purple  #footer .footer-overlay .footer-item .footer-social i:hover
+{
+	border-color: #850b85a2;
+	
+}
+
+
+.purple #footer .footer-overlay .footer-copy p a,
+.purple #feedback .feedback-item .feedback-title ul li,
+.purple #footer .footer-overlay .footer-item .contact i,
+.purple #brand .nextBtn:hover
+{
+    color: #850b85a2;
+}
+
+.purple #gallery .gallery-bg .gallery-item .item-overlay,
+.purple .team-slider .card .card-img .item-overlay
+{
+    background: rgba(133, 11, 133, 0.8);
+}
+
+/* purple color css ends */
+
