@@ -188,6 +188,10 @@
         width: 81px;
     }
 
+    .color-picker{
+        position: fixed;
+    }
+
 
     /* xtra small device css ends */
 
